@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 
-mongoose.connect('mongodb://localhost:27017', {
+mongoose.connect('mongodb+srv://Arshdeep:Arshdeep1323@cluster0.4av486u.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
